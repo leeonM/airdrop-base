@@ -1,0 +1,60 @@
+.newsletter{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.newsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    width: 90%;
+}
+
+.inputContainer{
+    margin: 50px;
+    width: 90%;
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputContainer>input{
+    border: none;
+    font-family: 'Space Grotesk', sans-serif;
+    height: 77px;
+    width: 30%;
+    font-size: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    padding-left: 10px;
+}
+
+.inputContainer>button{
+    background-color: #0e3bff;
+    color: white;
+    border: none;
+    font-family: 'Space Grotesk', sans-serif;
+    height: 81px;
+    width: 10%;
+    font-size: 100%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px){
+    .inputContainer>input{
+        width: 70%;
+    }
+
+    .inputContainer>button{
+        width: 30%;
+    }
+}

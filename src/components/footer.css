@@ -1,0 +1,68 @@
+.footer {
+    background-color: #1e2025;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.fContainer {
+    margin-top: 30px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.logoFooter {
+    object-fit: scale-down;
+    height: 20%;
+}
+
+.navIconContainer {
+    right: 0;
+}
+
+.fLogoContainer {
+    font-weight: bold;
+}
+
+.fLogoContainer>a {
+    color: white;
+}
+
+.fLogoContainer>p{
+    margin-left: 10px;
+}
+
+.fTerms {
+    margin-left: 10px;
+}
+
+.navItemsFooter{
+    display: flex;
+}
+
+.navItemsFooter>h2{
+    margin-right: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.navIconFooter{
+    font-size: 30px;
+    margin: 30px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 1024px){
+    .footer {
+        height: 600px;
+    }
+    .navItemsFooter {
+        display: flex;
+        flex-direction: column;
+    }
+}

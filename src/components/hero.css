@@ -1,0 +1,49 @@
+.hero{
+    font-family: 'Space Grotesk', sans-serif;
+    justify-content: center;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.hContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.hTitle {
+    font-size: 600%;
+    width: 50%;
+    margin-bottom: 100px;
+    font-weight: 500;
+}
+
+.hSubHeading {
+    width: 50%;
+    font-size: 22px;
+    margin-top: 80px;
+}
+
+.hButtonContainer {
+    display: flex;
+}
+
+.hButtonContainer>button{
+    gap: 20px;
+    border: 1px solid white;
+    height: 80px;
+    width: 280px;
+    margin-right: 15px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.hButtonTwo {
+    background-color: transparent;
+    color: white;
+}
+

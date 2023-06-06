@@ -1,0 +1,57 @@
+.second {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+}
+
+.rightTitle {
+    font-size: 500%;
+    width: 50%;
+    margin-bottom: 100px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+
+.sContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 150px 0;
+}
+
+.sImg{
+    height: 500px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+.rightTitle{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.rightSubHeading{
+    width: 80%;
+}
+
+@media only screen and (max-width: 1024px){
+    .footer {
+        flex-direction: column;
+    }
+
+    .sContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .right{
+        margin-left: 0;
+    }
+}
